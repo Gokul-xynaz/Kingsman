@@ -1,0 +1,296 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+width:100vw;
+height:100vh;
+overflow-x:hidden;
+font-family: "Mulish", sans-serif;
+
+}
+
+
+
+.navbar{
+    padding: 18px 25px 16px 40px;
+    width: 100%;
+    color: white;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navicons i{
+    margin-right: 15px;
+}
+.navicons{
+   
+    font-size:20px;
+    display: flex;
+    justify-content: flex-start;
+   align-items: center;
+}
+
+.navicons i {
+   
+    color: white;
+    
+     
+    
+}
+
+.flagicon{
+
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center; 
+  
+
+}
+
+.ind{
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: center; 
+    margin-left: auto;
+    position: absolute;
+    right: 30px;
+
+}
+.indFlag{
+    height: 16px;
+}
+select {
+    /* padding: 8px;  */
+    font-size: 14px; 
+border: none;
+margin-left: 5px;
+    background-color: black; 
+    color: white;
+    cursor: pointer; 
+}
+.navbar2{
+    padding: 10px 10px 10px 40px;    background-color: #000000e0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2Icons i {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight:0px;
+    
+}
+
+.backimg img{
+    width:100vw;
+    height:700px;
+    position: relative;
+}
+.backimg {
+    width: 100%;
+    height:100%;
+    display: flex;
+    background-image: url("	https://wdt-teapoy.myshopify.com/cdn/shop/files/slider-img-2.jpg?v=1719824824&width=550");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.backtext{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.navbarinner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.backtext h2{
+    font-family: "Mulish", sans-serif; 
+    color: orange; 
+    font-size: 18px; 
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.backtext h1{
+    font-family: "Mulish", sans-serif;  
+    font-size: 57px; 
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.backtext p{
+    line-height: 1.5;
+    font-family: "Mulish", sans-serif;  
+    font-size: 18px; 
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+.button{
+    width: 200px;
+    padding: 5px 5px;
+    border-radius: 80px;
+    background-color:orange;
+    color:white;
+    font-size: 20px;
+    font-family: "Mulish", sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.button button{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    margin-left: 30px;
+    color: white;
+    
+}
+.button span{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    font-size: 14px;
+    z-index: 5 !important;
+  
+    margin-left: 0px;
+    color: black;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.navbarinner{
+    align-items:center;
+    font-family: "Mulish", sans-serif;  
+    font-size: 10px;
+    color: white;
+    display: flex;
+    width: 50%;
+
+}
+
+.second-page{
+    height:100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.secondinner{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-content{
+    color: white;
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+   
+
+}
+.second-content h4{
+    color: orange;
+    
+
+}
+.second-content h1{
+    
+
+}
+.second-content p{
+    display: flex;
+    line-height: 30px;
+
+}
+.secondleftinner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.second-right{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+        
+
+}
+.rightimg{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.rightimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.second-left img{
+    border-radius: 20px;
+}
+
+.second-content p span{
+    color: orange;
+    margin-right: 10px;
+}
+
+.third-content{
+    width: 100%;
+    height:100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+
+}
+
+.thirdimg{
+    opacity:50%;
+}
+
+.third-top{
+    display: flex;
+}
